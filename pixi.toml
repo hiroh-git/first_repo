@@ -1,0 +1,12 @@
+[workspace]
+authors = ["hiroh-git <hara.yasuh@gmail.com>"]
+channels = ["conda-forge"]
+name = "first_repo"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.15.0,<3.16"
+pre-commit = ">=4.7.0,<5"
