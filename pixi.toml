@@ -8,5 +8,8 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-python = ">=3.15.0,<3.16"
+python = "3.13.*"
 pre-commit = ">=4.7.0,<5"
+ruff = ">=0.17.1,<0.18"
+mypy = ">=2.4.0,<3"
+identify = ">=2.5.0"
